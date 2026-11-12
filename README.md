@@ -1,6 +1,6 @@
 # Awesome-Contract-Master-Data-Management-MDM
 
-# Top Contract Master Data Management (MDM) Ecosystem
+## Top Contract Master Data Management (MDM) Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Golden Record Creation, Entity Resolution & Cross-System Contract Data Consistency*  
