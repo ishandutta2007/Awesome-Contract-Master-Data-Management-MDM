@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -76,9 +76,9 @@ The global Master Data Management (MDM) software market is estimated at **$21 bi
 
 ## 💻 Open-Source GitHub Projects
 
-*Ranked by GitHub star count in descending order. Star badges link directly to each repository's stargazers.*
+*Ranked by GitHub Stars_Count in descending order. Stars_Badges link directly to each repository's stargazers.*
 
-| Project | Stars | License | Description |
+| Project | GitHub_Stars | License | Description |
 |:---|:---|:---|:---|
 | **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** | [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers) | Apache 2.0 | Metadata catalog and governance platform. While not a standalone MDM match-and-merge engine, it provides critical schema discovery, data lineage, and contract data dictionary governance across distributed databases. |
 | **[DataHub](https://github.com/datahub-project/datahub)** | [![Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers) | Apache 2.0 | Extensible metadata search and lineage platform originally developed by LinkedIn. Complements MDM systems by mapping contract dependencies, source pipelines, and end-to-end data provenance. |
