@@ -1,31 +1,61 @@
-# Awesome-Contract-Master-Data-Management-MDM
+<div align="center">
 
-## Top Contract Master Data Management (MDM) Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Contract Master Data Management (MDM) Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Golden Record Creation, Entity Resolution & Cross-System Contract Data Consistency*  
-**Last updated: March 2026**
+# 📑 Awesome Contract Master Data Management (MDM) 🌟
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Contract Master Data Management (MDM)**. These tools help organizations create a single, trusted view of contract-related master data—counterparties, legal entities, suppliers, and pricing structures—across CRM, ERP, CLM, and procurement systems. They resolve duplicates, enforce data standards, and govern who can change critical fields like bank accounts or legal names.
+<p align="center">
+  <strong>A curated index of top SaaS platforms, open-source libraries, and tools for golden record creation, entity resolution, and cross-system contract data consistency.</strong>
+</p>
 
-**Examples** include Informatica MDM, SAP Master Data Governance, Semarchy xDM, Profisee, Reltio, Stibo Systems, Tibco EBX, Ataccama ONE, Icertis, and Pimcore.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Contract-Master-Data-Management-MDM?color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Open-source emphasis**: This section highlights active projects for self-hosted MDM, open-source entity resolution, and community-driven data governance—ideal for organizations seeking data sovereignty and transparent matching logic over enterprise licensing. Note that the open-source MDM landscape is genuinely thin in 2026: Talend Open Studio for MDM was retired in January 2024, and Pimcore's Community Edition has a €5M revenue threshold.
+<p align="center">
+  <em>Last updated: March 2026 • Curated for Data Governance Teams, MDM Architects, Procurement Stewards, and Data Engineers.</em>
+</p>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+</div>
 
-## Sector Overview & Market Dynamics
+## 📖 Executive Summary & Core Concepts
+
+**Contract Master Data Management (Contract MDM)** is the discipline, architectural framework, and technology suite used to synthesize and govern a singular, authoritative **"Golden Record"** for all contract-related business entities. In large enterprises, contract data is fragmented across customer relationship management (CRM), enterprise resource planning (ERP), contract lifecycle management (CLM), supply chain, and procurement suites.
+
+Contract MDM platforms solve this fragmentation by providing:
+- 🔍 **Probabilistic Entity Resolution & Deduplication**: Disambiguating legal counterparty variations, subsidiaries, DBA names, and legacy vendor accounts.
+- 🔗 **Hierarchical Graph Relationship Modeling**: Mapping complex corporate structures, parent-subsidiary relationships, supplier tiers, and global legal entities.
+- 🛡️ **Data Stewardship & Approval Governance**: Enforcing role-based authorization rules and validation workflows before sensitive contract fields (such as payment terms, bank accounts, or tax identifiers) are modified.
+- ⚡ **Cross-System Synchronization**: Propagating golden master attributes bi-directionally across Salesforce, SAP, Oracle, Icertis, Coupa, and Snowflake.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global Master Data Management (MDM) software market is estimated at **$21 billion to $30 billion**, expanding at a robust double-digit CAGR of **13% to 18%** as enterprises modernize cloud architectures and feed governed data into AI and automated contract engines. The sector is **moderately fragmented** rather than a winner-take-all monopoly: while legacy titans (SAP, Informatica) capture large-scale enterprise suites, agile multi-domain specialists (Reltio, Semarchy, Profisee) and vertical CLM master-data leaders (Icertis) command substantial niches across entity resolution, product data, and contract lifecycle integration.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS/Hosted Platforms
 
 *Ranked by company size (valuation / annual revenue in descending order).*
 
@@ -42,7 +72,9 @@ The global Master Data Management (MDM) software market is estimated at **$21 bi
 | **[Semarchy xDM](https://www.semarchy.com/)** | ~$25M ARR (backed by PSG) | Unified "Intelligent Data Hub" providing multi-domain MDM, entity resolution, and governance with a single data model and workflow-driven stewardship. | Starting at £62,000/year (~$78,000/year via UK G-Cloud for up to 50,000 base objects with unlimited users) | Free 30-day proof-of-value sandbox license available upon request via Semarchy website |
 | **[Pimcore](https://pimcore.com/)** | ~$10M ARR (backed by Verdane) | Open-core digital data platform combining MDM, PIM, DAM, and DXP. Enforces golden record creation and master attributes across enterprise assets. | Professional Edition: $9,900/year; Enterprise Edition: $29,900/year; PaaS: $39,000/year | Perpetual Free Tier via Community Edition strictly for organizations with ≤€5M ($5.4M) annual turnover; commercial organizations >€5M require paid license |
 
-## Open-Source GitHub Projects
+---
+
+## 💻 Open-Source GitHub Projects
 
 *Ranked by GitHub star count in descending order. Star badges link directly to each repository's stargazers.*
 
@@ -63,22 +95,48 @@ The global Master Data Management (MDM) software market is estimated at **$21 bi
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format and sorting).
-3. Include: name, link, star badge, accurate pricing/size details, and 1–2 sentence description.
-4. Submit PR with a short explanation.
+Contributions make the open-source community an incredible place to learn, inspire, and create! Any contributions you make are **greatly appreciated**.
 
-Star the repo if you find it useful!
+1. 🍴 **Fork the Project**
+2. 🌿 **Create your Feature Branch** (`git checkout -b feature/AmazingMDMFeature`)
+3. 💾 **Commit your Changes** (`git commit -m 'Add new MDM / entity resolution tool'`)
+4. 🚀 **Push to the Branch** (`git push origin feature/AmazingMDMFeature`)
+5. 📬 **Open a Pull Request**
 
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- MDM platforms govern critical master data (supplier bank accounts, legal entity names, pricing structures); enforce strict approval workflows, audit trails, and segregation of duties. A wrong golden record propagates everywhere.
-- **The open-source MDM landscape is thinner than it appears.** Talend Open Studio for MDM was retired in January 2024 and receives no security patches. Pimcore's Community Edition has a €5M revenue threshold. AtroCore is an active GPL candidate, but its ERP integrations are paid modules. Data catalogs (OpenMetadata, DataHub) are complementary governance tools rather than transactional golden-record engines.
+Please ensure your entries include factual descriptions, verified starting prices, license information, and live links.
 
 ---
 
-**Made for data governance teams, MDM architects, procurement data stewards, and developers building master data infrastructure.**  
-Let's make contract master data management more open, transparent, and governable.
+## 💖 Support & Sponsorship
+
+Thank you for visiting and using this resource! Maintaining open-source repositories and high-quality curations takes dedication and ongoing research.
+
+If you found this guide helpful:
+- ⭐ **Star this repository** to help others discover it on GitHub!
+- 🍴 **Fork and share** it with your data governance, legal engineering, and architecture teams.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new open-source initiatives, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support is deeply appreciated!
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" /></a>
+</p>
+
+---
+
+##  Star History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Contract-Master-Data-Management-MDM&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Contract-Master-Data-Management-MDM&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- 📌 This is a **community-curated** list — not exhaustive and not an endorsement.
+- 🔒 MDM platforms govern critical master data (supplier bank accounts, legal entity names, pricing structures); always enforce strict approval workflows, audit trails, and segregation of duties. A wrong golden record propagates across all integrated downstream systems.
+- 💡 **The open-source MDM landscape is thinner than it appears.** Talend Open Studio for MDM was retired in January 2024 and receives no security patches. Pimcore's Community Edition has a €5M revenue threshold. AtroCore is an active GPL candidate, but its ERP integrations are paid modules. Data catalogs (OpenMetadata, DataHub) are complementary governance tools rather than transactional golden-record engines.
+
+---
+
+<p align="center">
+  <strong>Made with ❤️ for data governance teams, MDM architects, procurement data stewards, and developers building master data infrastructure.</strong>
+</p>
